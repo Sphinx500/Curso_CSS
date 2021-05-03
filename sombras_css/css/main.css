@@ -61,9 +61,20 @@
     float: left;
     width: 30%;
     border: 1px solid red;
-    min-height: 500px;
     text-align: center;
     margin-top: 10px;
+    /* overflows */
+    min-height: 500px;
+    max-height: 300px;
+    /* desaparecer lo que esta fuera
+   overflow: hidden;
+
+   /* scroll para ver el contenido */
+   /* overflow: scroll; */
+
+   /* vista por defecto */
+   /* overflow: visible; */
+   overflow-y: scroll;
 }
 
 #contenido .caja {
