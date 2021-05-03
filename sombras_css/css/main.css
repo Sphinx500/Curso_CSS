@@ -77,6 +77,11 @@
     margin-left: 40px;
     text-align: center;
     line-height: 200px;
+    /* sombras */
+    box-shadow: 5px 5px 10px gray;
+    /* bordeado de caja */
+    border-radius: 50px 10px 20px 40px 61px;
+    border-radius: 999px;
 }
 
 #contenido>h1 {
