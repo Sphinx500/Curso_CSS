@@ -79,6 +79,7 @@
 
 #contenido .caja {
     /* posicion */
+    position: relative;
     width: 40%;
     height: 250px;
     background-color: #ccc;
@@ -111,4 +112,30 @@
     text-align: center;
     color: #444;
     border-top: 1px solid black;
+}
+
+/* estilo de cajita para posicion */
+/* posicion absoluta por enicma de los estilos anteriores */
+.libre{
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    position: absolute;
+    top: 300px;
+    /* left: 50%; */
+    left: 50%;
+}
+/* z index sirve para la sobrecolocacion de elementos */
+libre1{
+    z-index: 100;
+}
+
+.libre2{
+    background-color: yellow;
+    top: 280px;
+    left: 50%;
+    z-index: 101;
 }
